@@ -116,9 +116,19 @@ section{
 .row-1{
     flex: 0.6;
 }
+
 .row-2{
     flex: 6;
     padding-top: 10px;
+}
+.row-2 button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    font-size: 13px;
 }
 .desc{
     font-size: 14px;
@@ -147,11 +157,13 @@ section{
     border: none;
     color: white;
     cursor: pointer;
+    outline: none;
     border-radius: 2px;
     padding: 10px 15px;
     font-size: 14px;
     font-weight: 420;
     margin-right: 5px;
+    
 }
 .comments{
     padding-top: 20px;
@@ -179,12 +191,8 @@ section{
     font-weight: 400;
     color: white;
 }
-.public-comment .profile-pic{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    width: 35px;
-}
+  
+
 aside{
     flex: 1.5;
     display: flex;
@@ -193,7 +201,7 @@ aside{
 .up-next{
     padding: 10px;
     padding-left: 0;
-    display: 0;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
